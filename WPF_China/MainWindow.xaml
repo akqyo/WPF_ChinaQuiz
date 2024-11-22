@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="460" Width="800">
+    <StackPanel Margin="0,0,0,4">
+        <TextBlock Text="Кто председатель великий китайский народный республика?"/>
+        <RadioButton GroupName="question1" IsChecked="False" Content="желтость мишка вини pooh"/>
+        <RadioButton GroupName="question1" IsChecked="False" Content="глупость пдстилка бургер joe" />
+        <RadioButton GroupName="question1" IsChecked="False" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked" Content="Великий кормичий красность вождь Xi!!"/>
+        <RadioButton GroupName="question1" IsChecked="False" Content="узкий глаз"/>
+        <Separator/>
+        <TextBlock Text="Кто принадлежать город Аомынь Макао?"/>
+        <RadioButton GroupName="question2" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked" Content="Китай Народ Республика"/>
+        <RadioButton GroupName="question2" Content="Португалия (глупость мяч игра)"/>
+        <RadioButton GroupName="question2" Content="Сша(скоро мы удар вашингтон)"/>
+        <RadioButton GroupName="question2" Content="Россия(патрнер хороший вода и лес)"/>
+        <Separator/>
+        <TextBlock Text="Что происходить на площадь Тяньаньмэнь?"/>
+        <RadioButton GroupName="question3" Content="ракета удар USA"/>
+        <RadioButton GroupName="question3" Content="бунт капиталист подстилки"/>
+        <RadioButton GroupName="question3" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked" Content="ничего не произойтись"/>
+        <RadioButton GroupName="question3" Content="чемпионат 原神 Impact"/>
+        <Separator/>
+        <TextBlock Text="Как вы трата 10000 юань?"/>
+        <RadioButton GroupName="question4" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked" Content="пожертвование компартия китай"/>
+        <RadioButton GroupName="question4" Content="покупка молитвы Genshin Impact"/>
+        <RadioButton GroupName="question4" Content="поддержка всу(много хрю)"/>
+        <RadioButton GroupName="question4" Content="подарок мама"/>
+        <Separator/>
+        <TextBlock Text="Какой smarfon вы покупка?"/>
+        <RadioButton GroupName="question5" Content="Sasung S20(глупость юг корея слежка)"/>
+        <RadioButton GroupName="question5" Content="Ifone 14(ваш телефон превращение в керпич)"/>
+        <RadioButton GroupName="question5" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked" Content="HUAWEI P50 PRO"/>
+        <RadioButton GroupName="question5" Content="smarfon зло выдумка капитализм"/>
+        <Button x:Name="Check" Content="Проверить" Click="Check_Click"/>
+    </StackPanel>
+</Window>
